@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="#9570D6"
+        android:background="#3C3F41"
         android:gravity="center"
         android:text="@string/dbs"
         android:textColor="#FFFFFF"
@@ -36,6 +36,6 @@
         android:background="#1D35BF"
         android:gravity="center"
         android:text="@string/uob"
-        android:textColor="#FFFFFF"
+        android:textColor="#3C3F41"
         android:textSize="36sp" />
 </LinearLayout>
