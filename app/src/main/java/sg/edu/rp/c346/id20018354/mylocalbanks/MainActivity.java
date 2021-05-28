@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
                                     ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         Log.v("Context", "create context");
-        menu.add(0, 0, 0, "Website");
-        menu.add(0, 1, 1, "Contact the bank");
+        menu.add(0, 0, 0, "Website / 网站" );
+        menu.add(0, 1, 1, "Contact the bank / 联系银行");
 
     }
     @Override

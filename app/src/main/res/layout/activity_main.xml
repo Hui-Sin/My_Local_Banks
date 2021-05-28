@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0000"
+    android:orientation="vertical">
 
 
     <TextView
@@ -10,22 +11,31 @@ android:orientation="vertical">
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:background="#9570D6"
+        android:gravity="center"
         android:text="@string/dbs"
-        android:gravity="center"/>
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
 
     <TextView
         android:id="@+id/textViewOCBC"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:background="#7E48DD"
+        android:gravity="center"
         android:text="@string/ocbc"
-        android:gravity="center"/>
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
 
     <TextView
         android:id="@+id/textViewUOB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:background="#1D35BF"
+        android:gravity="center"
         android:text="@string/uob"
-        android:gravity="center"/>
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
 </LinearLayout>
